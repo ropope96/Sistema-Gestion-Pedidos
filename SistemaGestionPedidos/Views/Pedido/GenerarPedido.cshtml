@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "GenerarPedido";
+}
+
+	<div class="labelDatos" align=center>
+		<label class="">Datos de la Mesa</label>
+	</div>
+	<div>
+		<label class="espacioIzquierda">Mesa:</label>
+		<select class="espacioIzquierdaMesa" name="mesa">
+			<option value="1">Mesa 1</option>
+			<option value="2">Mesa 2</option>
+			<option value="3">Mesa 3</option>
+			<option value="4">Mesa 4</option>
+			<option value="5">Mesa 5</option>
+			<option value="6">Mesa 6</option>
+			<option value="7">Mesa 7</option>
+		</select>
+	</div>
+	<div class="labelDatos" align=center>
+		<label>Datos del Jugo</label>
+	</div>
+	<div class="espacioArriba">
+		<label class="espacioIzquierda">Codigo Jugo:</label>
+		<input disabled class="espacioIzquierdaInput" type="text" name="codigoJugo" />
+		<button class="espaciobutton">Personalizar Jugo</button>
+	</div>
+	<div class="espacioArriba">
+		<label class="espacioIzquierda">Nombre Jugo:</label>
+		<input disabled class="espacioIzquierdaInput" type="text" name="nombreJugo" />
+		<button class="espaciobutton">Buscar Jugo</button>
+	</div>
+	<div class="espacioArriba">
+		<label class="espacioIzquierda">Precio Jugo:</label>
+		<input disabled class="espacioIzquierdaInput" type="text" name="precioJugo" />
+	</div>
+	<div class="espacioArriba">
+		<label class="espacioIzquierda">Ingredientes:</label>
+		<input disabled class="espacioIzquierdaInput" type="text" name="ingredientes" />
+	</div>
+	<div class="espacioArriba">
+		<label class="espacioIzquierda">Cantidad:</label>
+		<input disabled class="espacioIzquierdaInput" type="text" name="cantidad" />
+		<button class="espaciobutton">Agregar Jugo</button>
+	</div>
+	<div class="labelDatos" align="center">
+		<label>Datos del Pedido</label>
+	</div>
+	<div>
+		<center>
+			<table BORDER CELLPADDING=10 CELLSPACING=0>
+				<tr class="fondoGris">
+					<td><label>Jugo</label></td>
+					<td><label>Ingredientes</label></td>
+					<td><label>Precio</label></td>
+					<td><label>Cantidad</label></td>
+					<td><label>Subtotal</label></td>
+					<td><label>Opcion</label></td>
+				</tr>
+				<tr>
+					<td><label>Jugo de Fresa</label></td>
+					<td><label>Fresa</label></td>
+					<td><label>15</label></td>
+					<td><label>1</label></td>
+					<td><label>15</label></td>
+					<td><button>Eliminar</button></td>
+				</tr>
+			</table>
+		</center>
+	</div>
+	<div class="espacioArribaMonto">
+		<label class="montoTotal">Monto total:</label>
+	</div>
+	<div class="espacioultimo">
+		<input disabled type="text" name="montoTotal" />
+		<button class="espaciobuttonGenerar">Generar Pedido</button>
+		<button class="espaciobuttonSalir">Salir</button>
+	</div>

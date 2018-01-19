@@ -1,0 +1,162 @@
+body {
+	font-family: arial;
+}
+
+header {
+	border: 1.5px solid green;
+	background-color: #088A4B;
+	text-align: center;
+	padding: 1px;
+}
+
+footer {
+	border: 1.5px solid green;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+	color: green;
+}
+
+button {
+	background-color: #D8D8D8;
+}
+
+button, select, input {
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.labelBlanco {
+	color: orange;
+	font-weight: bold;
+}
+
+.principal {
+	border: 2px solid black;
+	float: left;
+	width: 30%;
+	min-height: 650px;
+}
+
+.secundario {
+	border: 2px solid black;
+	margin-left: 30%;
+	min-height: 650px;
+	margin-bottom: 10px;
+}
+
+.izquierdaHeader {
+	text-align: left;
+	float: left;
+	width: 50%;
+}
+
+.derechaHeader {
+	text-align: right;
+	margin-left: 50%;
+	margin-top: 25px;
+}
+
+.label {
+	font-weight: bold;
+	color: white;
+}
+
+.labelDatos {
+	border: 1.5px solid black;
+	font-weight: bold;
+	margin: 30px;
+	padding: 10px;
+}
+
+.menu {
+	border: 2px solid black;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.meseroEspacio {
+	border: 1px solid black;
+}
+
+.espaciobutton {
+	margin-left: 50px;
+}
+
+.espaciobuttonGenerar {
+	margin-left: 150px;
+}
+
+.espaciobuttonSalir {
+	margin-left: 30px;
+}
+
+.espacioIzquierdaInput {
+	margin-left: 40px;
+}
+
+.espacioIzquierdaMesa {
+	margin-left: 10px;
+	width: 120px;
+}
+
+.espacioIzquierda {
+	margin-left: 40px;
+	float: left;
+	width: 120px;
+}
+
+.montoTotal {
+	margin-left: 40px;
+	width: 120px;
+	display: block;
+}
+
+.espacioDerecha {
+	margin-right: 20px;
+}
+
+.espacioAbajo {
+	margin-bottom: 20px;
+}
+
+.espacioArriba {
+	margin-top: 10px;
+}
+
+.espacioArribaMonto {
+	margin-top: 40px;
+}
+
+.espacioultimo {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+.fondoGris {
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+.imagen {
+	vertical-align: middle;
+}
+
+.izquierdaImagenMesero {
+	float: left;
+	width: 13%;
+	margin-left: 10px;
+}
+
+.derechaMesero {
+	margin-left: 13%;
+	margin-top: 5%;
+	text-align: center;
+}
